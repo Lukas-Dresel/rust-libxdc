@@ -1,0 +1,15 @@
+[package]
+name = "libxdc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+libxdc-sys = { path = "../rust-libxdc-sys" }
+rust-honeybee = { path = "../rust-honeybee" }
+rust-honeybee-sys = { path = "../rust-honeybee-sys" }
+clap = {version = "3.0.14", features = ["cargo"]}
+parse_int = "0.6.0"
+goblin = "0.5.1"
